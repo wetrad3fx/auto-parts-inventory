@@ -103,13 +103,9 @@ The application automatically detects whether MySQL is running. If MySQL is unco
    
 
 4. **Run Server**:
-   ```bash
    npm start
-   ```
    Or for auto-reloading development mode:
-   ```bash
    npm run dev
-   ```
 
 5. **Access Application**:
    Open browser at `http://localhost:3000`
@@ -117,7 +113,7 @@ The application automatically detects whether MySQL is running. If MySQL is unco
 ---
 
 ## 📁 Directory Structure
-```text
+
 auto-parts-inventory/
 ├── config/
 │   └── db.js                 # Dual Database Connection (MySQL / SQLite fallback)
@@ -161,7 +157,7 @@ auto-parts-inventory/
 ├── .env.example              # Environment variables template
 ├── package.json              # Project dependencies & scripts
 └── README.md                 # Documentation
-```
+
 
 ---
 

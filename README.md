@@ -90,7 +90,7 @@ The application automatically detects whether MySQL is running. If MySQL is unco
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/auto-parts-inventory.git
+   git clone https://github.com/wetrad3fx/auto-parts-inventory.git
    cd auto-parts-inventory
    ```
 

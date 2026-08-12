@@ -89,21 +89,18 @@ The application automatically detects whether MySQL is running. If MySQL is unco
 ## 🚀 Quick Start / Installation Steps
 
 1. **Clone the Repository**:
-   ```bash
+  
    git clone https://github.com/wetrad3fx/auto-parts-inventory.git
    cd auto-parts-inventory
-   ```
+  
 
 2. **Install Dependencies**:
-   ```bash
    npm install
-   ```
-
+   
 3. **Configure Environment Variables**:
    Copy `.env.example` to `.env`:
-   ```bash
    cp .env.example .env
-   ```
+   
 
 4. **Run Server**:
    ```bash

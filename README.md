@@ -72,10 +72,9 @@ The application automatically detects whether MySQL is running. If MySQL is unco
 ### Option 2: MySQL Setup (For Production / MySQL Grading)
 1. Open your MySQL client (e.g. MySQL Workbench, phpMyAdmin, or MySQL CLI).
 2. Execute the provided database export file:
-   ```bash
+  
    mysql -u root -p < database.sql
-   ```
-3. Update `.env` with your MySQL connection credentials:
+  . Update `.env` with your MySQL connection credentials:
    ```env
    DB_HOST=localhost
    DB_USER=root
@@ -83,7 +82,7 @@ The application automatically detects whether MySQL is running. If MySQL is unco
    DB_NAME=auto_parts_inventory
    DB_PORT=3306
    USE_MYSQL=true
-   ```
+   
 
 ---
 
